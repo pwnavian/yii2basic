@@ -1,0 +1,19 @@
+{
+    "js": [
+        "js/select.bootstrap4.js",
+        "js/select.bootstrap4.min.js",
+        "js/select.bootstrap4.min.mjs",
+        "js/select.bootstrap4.mjs"
+    ],
+    "css": [
+        "css/select.bootstrap4.css",
+        "css/select.bootstrap4.min.css"
+    ],
+    "types": [
+        "types/select.bootstrap4.d.ts",
+        "types/types.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/Select",
+    "last-tag": "1.6.0",
+    "last-sync": "01715b0fa44638ea5d3083c55d49c0427ebd99fc"
+}

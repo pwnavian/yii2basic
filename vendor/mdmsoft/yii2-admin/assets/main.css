@@ -1,0 +1,27 @@
+body {
+    padding-top: 70px;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding: 15px 0 30px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-putera{
+    /* height : calc(2.5rem + 2px) !important; */
+    background-image: linear-gradient(#F1F1D4 0%, #E5E5BE 51%, #E6E49F 100%);
+    border: 1px solid #AAAC62;
+    border-radius: 8px 8px 8px 8px;
+    color: #333333;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
