@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Z:/htdocs/dpr"
+		},
+		{
+			"path": "../../../xampp4/htdocs/dpr"
+		},
+		{
+			"path": "../bootstrap5"
+		},
+		{
+			"path": "Z:/htdocs/dprv3"
+		},
+		{
+			"path": "Z:/htdocs/testbootstrap_git"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap5"
+	}
+}

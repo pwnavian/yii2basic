@@ -1,0 +1,267 @@
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.btn-putera{
+    height : calc(1.5rem + 2px) !important;
+    background-image: linear-gradient(#F1F1D4 0%, #E5E5BE 51%, #E6E49F 100%);
+    border: 1px solid #AAAC62;
+    border-radius: 8px 8px 8px 8px;
+    color: #333333;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+fieldset {
+    border: 2px;
+        border-top-color: rgb(204, 204, 204);
+        border-top-style: solid;
+        border-top-width: 2px;
+        border-right-color: rgb(204, 204, 204);
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-bottom-color: rgb(204, 204, 204);
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-left-color: rgb(204, 204, 204);
+        border-left-style: solid;
+        border-left-width: 2px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+    position: relative;
+    left: 0%;
+    margin-bottom: 1em;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.pagination {
+    display: -ms-inline-flexbox;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .pagination > li {
+    display: inline;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .pagination > li > a:hover,
+  .pagination > li > span:hover,
+  .pagination > li > a:focus,
+  .pagination > li > span:focus {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eeeeee;
+    border-color: #ddd;
+  }
+  .pagination > li:first-child > a,
+  .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .pagination > li:last-child > a,
+  .pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+  }
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    color: #777777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+  }
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+  }
+  .pagination-lg > li:first-child > a,
+  .pagination-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  .pagination-lg > li:last-child > a,
+  .pagination-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .pagination-sm > li > a,
+  .pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .pagination-sm > li:first-child > a,
+  .pagination-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .pagination-sm > li:last-child > a,
+  .pagination-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+
+  table .table-detail{
+    border:1px solid rgba(0, 0, 0, 0);
+  }
+
+  table .table-detail > thead{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    background-color:rgb(119, 107, 107);
+    font: weight 2px;
+  }
+
+  .table-detail{
+    border:1px solid #dee2e6;
+  }
+  .table-detail td,.table-detail th{
+    border:1px solid #dee2e6;
+  }
+  .table-detail thead td,.table-detail thead th{
+    border-bottom-width:2px;
+    background-color:rgb(119, 107, 107);
+  }
+
+  .table-detail tbody td{
+    border-bottom-width:2px;
+    background-color:rgb(255, 255, 255);
+  }
+
+  .text-end {
+    text-align: right !important;
+  }
+
+  .btn {
+    height : calc(1.75rem + 2px) !important;
+  }
+
+  .badge2{
+    position: absolute;
+    top: -10px;
+    padding: 5px 10px !important;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
